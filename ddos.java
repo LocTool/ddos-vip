@@ -10,7 +10,7 @@ public class Dos implements Runnable {
 
 
 
-    private final String USER_AGENT =   "Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1";
+    private final String USER_AGENT =   "Mozilla/5.0 (Linux; Android 11; SM-T295) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36";
 
     private static int amount = 0;
     private static String url = "";
@@ -35,7 +35,7 @@ public class Dos implements Runnable {
                     case 3:
                         getAttack(Dos.url);
                         break;
-                    case 4:
+                    case 4: 
                         sslGetAttack(Dos.url);
                         break;
 
